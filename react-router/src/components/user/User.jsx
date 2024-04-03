@@ -1,10 +1,10 @@
 import React from "react";
-import useParams from "react-router-dom";
+import {useParams} from "react-router-dom";
 
 function User() {
   const { userid } = useParams();
   return(
-      <div>user: {userid}</div>
+      <div className="text-3xl">user: {userid}</div>
       )
 }
 
